@@ -1,12 +1,13 @@
 #include "main.h"
-/* Multiply the two integers and store the result in a variable*/
-/* Return the result of the multiplication*/
+
+/**
+ * mul - multiply 2 num
+ * @a: first num
+ * @b: second num
+ * Return: result of multiplication
+ */
 
 int mul(int a, int b)
-
 {
-	int result = a * b;
-
-	return (result);
+	return (a * b);
 }
-
